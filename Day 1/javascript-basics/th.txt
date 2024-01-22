@@ -1,0 +1,54 @@
+what is programming langugae :
+scripting language : it is subset of programming language
+js python ... 
+
+statically typed language :
+    int a = 10;
+dynamic typed language :
+    we dont need to define the type of variable
+    a =10;
+
+
+server side :
+client side : javascript is executed on client side
+
+java script engine:
+developer of js: brendan eich
+netscape navigator  : firefox : spider monkey
+google : chrome : v8 [node js...]
+safari : webkit
+ie : chakra
+
+js --> client ->browser -->
+
+ways of writing js code :
+inline js
+internal js
+external js
+
+
+use:DOM manuplation
+dom : document object model
+
+javascript provides 3 keyword for variable declaration
+1)var : global scope
+2)let : block scope
+3)const : block scope , final variable
+
+operators:to perform specfic operation on operands we use operators
+
+1)unery operators
+    increment/decrement a++ ,++a
+2)binary operators
+    1)arithmetic operators
+        +,-,*,/,%
+    2)asingment operators
+        =,+=,-=,*=,/=,%=
+    3)comparison operators / relational operators
+        ==,===,!=,!==,>,<,>=,<=
+    4)logical operators
+        &&,||,!
+    5)bitwise operators
+        &,|,^,~,<<,>>                    
+3)ternary    operators
+    ?:
