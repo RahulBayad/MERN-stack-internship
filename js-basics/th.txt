@@ -52,3 +52,36 @@ operators:to perform specfic operation on operands we use operators
         &,|,^,~,<<,>>                    
 3)ternary    operators
     ?:
+
+string
+length
+concat
+charAt
+toUpperCase
+toLowerCase
+indexOf
+lastIndexOf
+startsWith
+endsWith
+includes
+replace
+trim
+susstring
+split
+
+
+
+JSON: java script object notaion
+
+var x ={
+
+    key:value,
+}
+
+
+
+json object to create...
+exam :
+univer:
+employee:[nested....]
+2 your choice....
