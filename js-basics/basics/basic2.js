@@ -10,8 +10,7 @@ console.log("value of age outside block : " , age);
     let mobileNo = 6737370242;
     console.log("value of a inside bloack : " , a);
     console.log("value of age inside block : " , age);
-    console.log("mobile number inside block : " , mobileNo);
-    
+    console.log("mobile number inside block : " , mobileNo);   
 }
 console.log("value of a outside bloack : " , a);
 console.log("value of age outside block : " , age);
