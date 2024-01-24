@@ -85,3 +85,40 @@ exam :
 univer:
 employee:[nested....]
 2 your choice....
+
+function:
+block of code which is used to perform specific task
+
+1)code reusability
+2)code optimization
+3)code maintainability
+
+
+void test
+int test
+
+function keyword
+arrow function
+
+
+type of function:
+predefined function
+user defined function
+
+1)without parameter without return type
+2)with parameter without return type
+3)without parameter with return type
+4)with parameter with return type
+
+
+
+
+pop
+push
+shift
+unshift
+splice
+length param...
+some
+every
+sort
