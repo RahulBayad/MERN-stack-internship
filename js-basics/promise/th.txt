@@ -1,0 +1,9 @@
+data ---> ****************** API --> 3 second..
+lenth...
+---------------- it will not wait...
+
+Promise class...
+
+pending
+resolve
+reject
