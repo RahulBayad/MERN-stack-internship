@@ -122,3 +122,12 @@ length param...
 some
 every
 sort
+map
+filter
+forEach
+reduce
+includes
+json array
+find
+
+filter function...
