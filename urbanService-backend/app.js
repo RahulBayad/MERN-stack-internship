@@ -5,7 +5,7 @@ const router = require('./router/route');
 const mongoose = require('mongoose');
 const db = mongoose.connect("mongodb://127.0.0.1:27017/urbanservice")
 db.then(()=>{
-    console.log("Successfully ,connected to database")
+    console.log("Successfully ,connected to mongoDB database")
 }).catch((err)=>{
     console.log(err);
 })
