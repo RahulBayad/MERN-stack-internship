@@ -1,7 +1,7 @@
 const express= require('express')
 const app = express();
 const PORT = 4000;
-const router = require('./router/route');
+const userRouter = require('./router/userRoute');
 const mongoose = require('mongoose');
 const db = mongoose.connect("mongodb://127.0.0.1:27017/urbanservice")
 db.then(()=>{
@@ -9,9 +9,9 @@ db.then(()=>{
 }).catch((err)=>{
     console.log(err);
 })
-
-app.use('/users',router);
+app.use(express.json());
+app.use('/users',userRouter);
 
 app.listen(PORT,()=>{
-    console.log(`Server connected to PORT ${PORT}`)
+    console.log(`Server connected to PORT ${PORT}`);
 })

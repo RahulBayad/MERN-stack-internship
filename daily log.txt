@@ -1,0 +1,66 @@
+17/01/24 : project assigned
+18/01/24 : basics of js
+
+=> What is  programming and scripting language.
+=> all about js language.
+=> operators folder
+
+19/01/24 t0 22/01/24 : holiday
+
+23/01/24 : all about strings + JSON
+=>length
+=>concat
+=>charAt
+=>toUpperCase
+=>toLowerCase
+=>indexOf
+=>lastIndexOf
+=>startsWith
+=>endsWith
+=>includes
+=>replace
+=>trim
+=>susstring
+=>split
+=> task to create json objects : {exam ,univer,employee:[nested....],2 your choice....]
+
+
+24/01/24 : function + arrays
+=> how it is different from other language functions
+=>types of functions[w/o parameter & w/o return type,w/o parameter & with return type,with parameter & w/o return type,with parameter & with return type
+=>pop
+=>push
+=>shift
+=>unshift
+=>splice
+=>length param...
+=>some
+=>every
+=>sort
+=>map
+=>filter
+=>forEach
+=>reduce
+=>includes
+=>json array
+=>find
+
+25/01/24 : dom
+=> change text
+=> change box size
+=> change color onclick
+=> form submit handler
+=> keyboard events
+=> check name length on for while typing name [using keyboard events]
+
+26/0/24 :  promise
+=> promise understanding using timeout , .then .catch
+=> async... await...
+
+29/01/24 : node.js
+=> install node.js
+=> npm init
+=> express basics
+=> simple api called
+
+30/01/24  :-  install mongoose , express folder structure : [controller , router, util , model],get data from database.
