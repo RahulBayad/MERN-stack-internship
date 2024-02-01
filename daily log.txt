@@ -63,4 +63,6 @@
 => express basics
 => simple api called
 
-30/01/24  :-  install mongoose , express folder structure : [controller , router, util , model],get data from database.
+30/01/24  :-  install mongoose ,postman , express folder structure : [controller , router, util , model],get data from database[API].
+
+31/01/24 :-  create API to add user data in db , getuser by id .Task : do all this tasks for employee.
