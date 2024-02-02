@@ -10,9 +10,21 @@ db.then(()=>{
 }).catch((err)=>{
     console.log(err);
 })
+
+//config
 app.use(express.json());
-app.use('/users',userRouter);
-app.use('/employees',empRouter);
+
+//require all routes...
+const userRoutes = require("./routes/UserRoutes")
+const employeeRoutes = require("./routes/employeeRoutes")
+const categoryRoutes = require('./routes/categoryRoutes')
+const productRoutes = require('./routes/productRoutes')
+
+//provinding to server all routes...
+app.use("/users",userRoutes)
+app.use("/employees",employeeRoutes)
+app.use("/categories",categoryRoutes);
+app.use("/products",productRoutes);
 
 app.listen(PORT,()=>{
     console.log(`Server connected to PORT ${PORT}`);
